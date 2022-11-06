@@ -1,0 +1,27 @@
+:root {
+  --title: lime;
+  --text_color: rgb(107, 3, 107);
+  --text_size: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(2, 2, 40);
+}
+
+h1 {
+  color: var(--title);
+}
+p {
+  color: var(--text_color);
+  font-size: var(--text_size);
+  font-weight: bold;
+}
