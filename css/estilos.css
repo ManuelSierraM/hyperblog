@@ -8,7 +8,8 @@
 body {
   position: relative;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   font-size: var(--text_size);
   color: var(--text_color);
   font-family: "Courier New", Courier, monospace;
@@ -25,7 +26,7 @@ body {
   margin: 5em auto;
 }
 #cabecera {
-  background-color: rgba(171, 7, 171, 0.902);
+  background-color: rgb(184, 6, 184);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.75);
   color: black;
   font-weight: bold;
