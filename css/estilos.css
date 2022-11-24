@@ -16,6 +16,7 @@ body {
   font-size: var(--text_size);
   color: var(--text_color);
   background-color: rgb(2, 2, 40);
+  font-family: "Courier New", Courier, monospace;
 }
 
 #container {
