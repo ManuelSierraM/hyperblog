@@ -8,8 +8,9 @@
 body {
   position: relative;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: var(--text_size);
+  font-weight: bold;
   color: var(--text_color);
   background-color: rgb(4, 4, 92);
   padding: 0;
