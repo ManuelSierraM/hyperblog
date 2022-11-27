@@ -12,7 +12,7 @@ body {
   font-size: var(--text_size);
   font-weight: bold;
   color: var(--text_color);
-  background-color: rgb(4, 4, 92);
+  background-color: rgb(2, 2, 101);
   padding: 0;
   margin: 0;
 }
@@ -25,12 +25,16 @@ body {
   margin: 5em auto;
 }
 #cabecera {
-  background-color: rgb(158, 4, 155);
+  background-color: darkviolet;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.75);
   color: black;
   font-weight: bold;
-  margin: 0;
-  padding: 0.5em;
+  margin: 0.5px;
+  padding: 0.2em 0.5em;
+}
+#cabecera #logo {
+  width: 40px;
+  vertical-align: middle;
 }
 #cabecera #tagline {
   padding: 0 0 1em;
@@ -38,6 +42,7 @@ body {
   font-size: 0.8em;
 }
 #post {
+  background: rgba(0, 0, 0, 0.15);
   padding: 1em;
 }
 h1 {
