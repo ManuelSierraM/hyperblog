@@ -50,6 +50,13 @@ h1 {
   font-size: var(--title_zise);
 }
 
+.huargen_logo {
+  display: grid;
+  place-content: center;
+}
+.huargen {
+  width: 100%;
+}
 footer {
   background-color: orangered;
   color: rgb(6, 6, 171);
